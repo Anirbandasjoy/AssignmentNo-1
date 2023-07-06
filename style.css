@@ -132,3 +132,42 @@ button {
   margin-top: 1rem;
   color: rgb(255, 148, 148);
 }
+
+.projectCardContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 3rem;
+  gap: 1rem;
+  margin: auto;
+  background-color: rgb(216, 216, 230);
+  padding: 2rem 0;
+}
+
+.profulioCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  background-color: darkcyan;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  margin-right: 0;
+}
+.profulioCard img {
+  height: 200px;
+  width: 300px;
+}
+.profulioCard p {
+  text-align: left;
+  margin-left: 2rem;
+  color: rgb(255, 255, 255);
+}
+.profulioCard .pbtn button {
+  padding: 0.5rem 1.5rem;
+  background-color: rgb(212, 197, 136);
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  cursor: pointer;
+}
